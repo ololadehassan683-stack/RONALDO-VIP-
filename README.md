@@ -1,162 +1,99 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>RONALDO VIP</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <style>
-    body{
-      margin:0;
-      background:#0f1a14;
-      font-family:Arial, Helvetica, sans-serif;
-      color:#ffffff;
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1X2 VIP</title>  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
-    .container{
-      max-width:900px;
-      margin:auto;
-      padding:10px;
+    body {
+      background: linear-gradient(135deg, #0f172a, #020617);
+      color: #ffffff;
+      padding: 8px;
+      font-size: 13px;
     }
 
-    header{
-      text-align:center;
-      background:#0a2e1a;
-      padding:12px 5px;
-      border-radius:8px;
-      margin-bottom:10px;
+    .header {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #38bdf8;
+      letter-spacing: 1px;
     }
 
-    header h1{
-      margin:0;
-      font-size:24px;
-      letter-spacing:1.5px;
-      color:#00ff88;
+    .day-box {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 10px;
+      margin-bottom: 8px;
+      box-shadow: 0 0 8px rgba(56, 189, 248, 0.12);
     }
 
-    table{
-      width:100%;
-      border-collapse:collapse;
-      background:#13251d;
-      border-radius:8px;
-      overflow:hidden;
+    .row {
+      display: flex;
+      justify-content: space-between;
+      margin: 3px 0;
     }
 
-    th, td{
-      padding:8px 6px;
-      font-size:13px;
-      text-align:center;
+    .label {
+      color: #94a3b8;
     }
 
-    th{
-      background:#0a2e1a;
-      color:#00ff88;
+    .value {
+      font-weight: bold;
+      color: #e2e8f0;
     }
 
-    tr:nth-child(even){
-      background:#162f25;
-    }
-
-    .pick{
-      font-weight:bold;
-      color:#00ff88;
-    }
-
-    .boom{
-      color:#00ff88;
-      font-weight:bold;
-    }
-
-    .pending{
-      color:#ffd700;
-      font-weight:bold;
-    }
-
-    .loss{
-      color:#ff4d4d;
-      font-weight:bold;
-    }
-  </style>
-</head>
-
-<body>
-
-  <div class="container">
-
-    <header>
-      <h1>RONALDO VIP</h1>
-    </header>
-
-    <table>
-      <thead>
-        <tr>
-          <th>Day</th>
-          <th>Match</th>
-          <th>Pick</th>
-          <th>Result</th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <tr>
-          <td>Day 1</td>
-          <td>Nottingham Forest vs Crystal Palace</td>
-          <td class="pick">G.G</td>
-          <td class="boom">BOOM</td>
-        </tr>
-
-        <tr>
-          <td>Day 2</td>
-          <td>Mallorca vs Sevilla</td>
-          <td class="pick">G.G</td>
-          <td class="boom">BOOM</td>
-        </tr>
-
-        <tr>
-          <td>Day 3</td>
-          <td>Constantine vs Mostaganem</td>
-          <td class="pick">G.G</td>
-          <td class="boom">BOOM</td>
-        </tr>
-
-        <tr>
-          <td>Day 4</td>
-          <td>Zlin vs Moravce-Vrable</td>
-          <td class="pick">G.G</td>
-          <td class="boom">BOOM</td>
-        </tr>
-
-        <tr>
-          <td>Day 5</td>
-          <td>Haras El Hodood vs Pharco</td>
-          <td class="pick">G.G</td>
-          <td class="boom">BOOM</td>
-        </tr>
-
-        <tr>
-          <td>Day 6</td>
-          <td>Union Berlin vs Eintracht Frankfurt</td>
-          <td class="pick">G.G</td>
-          <td class="boom">BOOM</td>
-        </tr>
-
-        <tr>
-          <td>Day 7</td>
-          <td>Wolves vs Chelsea</td>
-          <td class="pick">G.G</td>
-          <td class="boom">BOOM</td>
-        </tr>
-
-        <tr>
-          <td>Day 8</td>
-          <td>Napoli vs Roma</td>
-          <td class="pick">G.G</td>
-          <td class="pending">PENDING</td>
-        </tr>
-      </tbody>
-    </table>
-
-  </div>
-
-</body>
+    .tip { color: #22c55e; }
+    .win { color: #22c55e; }
+    .lose { color: #ef4444; }
+    .pending { color: #facc15; }
+  </style></head><body>
+  <div class="header">1X2 VIP</div>  <!-- DAY 1 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">01 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">Arsenal vs Brighton</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value win">WIN</span></div>
+  </div>  <!-- DAY 2 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">02 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">Inter Milan vs Torino</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value lose">LOSE</span></div>
+  </div>  <!-- DAY 3 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">03 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">Barcelona vs Sevilla</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value win">WIN</span></div>
+  </div>  <!-- DAY 4 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">04 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">PSG vs Lyon</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value pending">PENDING</span></div>
+  </div>  <!-- DAY 5 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">05 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">Bayern vs Augsburg</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value win">WIN</span></div>
+  </div>  <!-- DAY 6 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">06 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">Chelsea vs Wolves</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value lose">LOSE</span></div>
+  </div>  <!-- DAY 7 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">07 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">Real Madrid vs Betis</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value pending">PENDING</span></div>
+  </div>  <!-- DAY 8 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">08 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">Napoli vs Lazio</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value pending">PENDING</span></div>
+  </div></body>
 </html>
