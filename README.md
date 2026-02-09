@@ -69,7 +69,7 @@
     <div class="row"><span class="label">Date:</span><span class="value">03 Feb 2026</span></div>
     <div class="row"><span class="label">Match:</span><span class="value">Bologna  vs A.C Milan</span></div>
     <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
-    <div class="row"><span class="label">Results:</span><span class="value loss">LOSS</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value lose">LOSE</span></div>
   </div>  <!-- DAY 4 -->  <div class="day-box">
     <div class="row"><span class="label">Date:</span><span class="value">04 Feb 2026</span></div>
     <div class="row"><span class="label">Match:</span><span class="value">Manchester City vs Newcastle vs Lyon</span></div>
